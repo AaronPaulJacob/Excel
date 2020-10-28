@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0px;
+    padding: 2px;
+}
+.heading{
+    text-align: center;
+    background-color: maroon;
+    height: 58px;
+    min-height: 50px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: aliceblue;
+}
+.menu{
+    border: 1px solid red;
+    height: 78px;
+    display: flex;
+}
+.menu_half{
+    width: 50%;
+    background-color: darkorange;
+    border: 1px solid brown;
+    text-align: center;
+    color: white;
+    font-size: large;
+    
+}
+.address{
+    height: 38px;
+    border: 1px solid green;
+}
+.main{
+    /* background-color: lightgreen; */
+    /* height: calc( 100vh - ( 38px + 78px+58px)); */
+    height: calc( 100vh - ( 78px+58px));
+    
+}
+.buttons{
+    min-height: 25px;
+    min-width: 90px;
+    background-color: khaki;
+    padding: 10;
+    border: 1px solid darkred;
+    margin: 2px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3px;
+    border-radius: 30px;
+
+}
+.heading2{
+   min-height: 25px;
+    min-width: 100px;
+    background-color: saddlebrown;
+    padding: 10;
+    /* border: 1px solid darkred; */
+    /* margin: 2px; */
+    font-size: 17px;
+    color: whoite;
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding-top: 3px;
+    /* border-radius: 30px; */
+
+}
+.buttonContainer{
+    display: flex;
+    margin-top: 4px;
+    padding-left: 230px;
+    padding-top: 10px;
+}
+
+
+.BOLD{
+    font-weight: bold;
+
+}
+.ITALIC{
+    font-style: italic;
+}
+.UNDERLINE{
+    text-decoration: underline;
+}
+.row{
+    display:flex
+}
+.cell{
+    min-width: 68px;
+    min-height: 23px;
+    border: 1px solid green;
+    text-align: center;
+    background-color: bisque;
+}
